@@ -18,6 +18,10 @@ module.exports = (grunt) ->
                     livereload: true
                 files: ['<%= css_root %>less/**/*.less']
                 tasks: ['less:development']
+            html:
+                options:
+                    livereload: true
+                files: ['*.html']
     )
     grunt.loadNpmTasks 'grunt-contrib-watch'
     grunt.loadNpmTasks 'grunt-contrib-less'
