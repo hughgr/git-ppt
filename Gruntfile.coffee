@@ -14,6 +14,8 @@ module.exports = (grunt) ->
                     '<%= css_root %>app.min.css': '<%= css_root %>less/entry.less'
         watch:
             css:
+                options:
+                    livereload: true
                 files: ['<%= css_root %>less/**/*.less']
                 tasks: ['less:development']
     )
@@ -22,4 +24,3 @@ module.exports = (grunt) ->
 
     grunt.registerTask 'default', ['less:development']
     grunt.registerTask 'production', ['less:production']
-
