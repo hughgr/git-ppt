@@ -24,7 +24,7 @@
     <div class="step well" data-x="0" data-y="0" data-z="1000">
         <h4>git 入门</h4>
         <hr />
-        <h2>git vs svn</h2>
+        <h2>git <b>vs</b> svn</h2>
         <ul>
             <li>git 是分布式，svn 是集中式</li>
             <li>git 是一个指针，svn 的分支是文件复制</li>
@@ -74,7 +74,7 @@
     <div class="step well" data-x="0" data-y="0">
         <h4>git 入门</h4>
         <hr />
-        <h2>fetch vs pull</h2>
+        <h2>fetch <b>vs</b> pull</h2>
         <ul>
             <li>三个概念：远程分支，本地仓库中的远程分支拷贝，本地分支</li>
             <li>fetch: 远程分支复制到本地仓库中</li>
@@ -86,7 +86,7 @@
     <div class="step well" data-x="1000" data-y="1000" data-z="-1000" data-rotate-x="90" data-rotate-y='90'>
         <h4>git 入门</h4>
         <hr />
-        <h2>merge vs rebase</h2>
+        <h2>merge <b>vs</b> rebase</h2>
         <ul>
             <li>merge：合并两个分支，产生一个新的 commit</li>
             <li>rebase：把一个分支的修改在另一个分支上重做一遍，不会产生新的 commit</li>
@@ -97,7 +97,7 @@
     <div class="step well" data-x="500" data-y="500" data-z="-1000" data-rotate-x="90" data-rotate-y='180'>
         <h4>git 入门</h4>
         <hr />
-        <h2>branch vs tag</h2>
+        <h2>branch <b>vs</b> tag</h2>
         <ul>
             <li>相同点：都是指向一个 commit 的指针</li>
             <li>不同点：</li>
@@ -111,7 +111,7 @@
     <div class="step well" data-x="1000" data-y="0" data-z="-1000" data-rotate-x="90" data-rotate-y='270'>
         <h4>git 入门</h4>
         <hr />
-        <h2>reset vs revert</h2>
+        <h2>reset <b>vs</b> revert</h2>
         <ul>
             <li>reset: 直接移动当前分支的head指针，把之后的提交退回到stage中，或者加 --hard 参数直接丢弃</li>
             <li>revert：新建一个 commit，这个 commit 的作用是撤销指定的commit中的修改</li>
@@ -131,7 +131,7 @@
     <div class="step well" data-z="-2000" >
         <h4>git 入门</h4>
         <hr />
-        <h2>新建分支 vs fork 仓库</h2>
+        <h2>新建分支 <b>vs</b> fork 仓库</h2>
         <ul>
             <li>少数人合作的小任务，可以共用一个仓库，各自创建分支开发，定期合并代码</li>
             <li>多人合作的大项目（比如nodejs这种开源项目），为了避免分支太多，每个人应该自己fork一个仓库，开发完成后向主仓库发 pull request。同时应该关闭其他人的push权限，限制只能用pull request</li>
@@ -151,12 +151,12 @@
         </ul>
     </div>
 
-    <div class="step well" data-z="-4000" >
-        <h4>git 入门</h4>
-        <hr />
+    <div class="step" data-z="-4000" >
         <h2>THE END</h2>
         <p> Thank you! </p>
-        <p> You can find this document here: git@github.com:lihongxun945/git-ppt.git</p>
+        <p> 
+        This presentation is built with impress.js.<br />
+        Here is the source code: git@github.com:lihongxun945/git-ppt.git</p>
     </div>
 
 <script src="static/js/impress.js"></script>
